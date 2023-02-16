@@ -1,0 +1,22 @@
+//            <script>
+        
+//              fillInputs = (type, value) => {
+//                   document.querySelectorAll([`[type="${type}"]`]).forEach(input => {
+//                         input.value = value;
+//                     });
+//                 }
+
+//                 fillTextArea = (type, value) => {
+//                     document.querySelectorAll([`[type="${type}"]`]).forEach(textarea => {
+//                         textarea.value = value;
+//                     })
+//                 }
+        
+//                 botFill = () => {
+//                     fillInputs('text', 'John Doe');
+//                     fillInputs('email', 'john@fake.com');
+//                     fillTextArea('message', 'ik ben een bot');
+//                 }
+//             </script>
+
+// <button class="botfill" onclick="botFill();">Dien in als bot</button>
