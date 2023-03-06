@@ -3,7 +3,7 @@ if (isset($_POST['Emailmlkjhgfdsq'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = $_POST['Emailmlkjhgfdsq'];
-    $email_from ="form@uikit.totowebontwikkeling.nl";
+    $email_from ="form@projectDoBot.com";
     $email_tobot = "jarnepeeters6@gmail.com";
     $email_subject = "Aanvraag";
 

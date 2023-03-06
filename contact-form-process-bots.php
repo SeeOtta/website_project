@@ -2,9 +2,8 @@
 if (isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_from ="form@uikit.totowebontwikkeling.nl";
-    $email_tobot = "jarnepeeters6@gmail.com";
-    $email_subject = "Aanvraag door bot";
+    $email_from ="form@projectDoBot.com";
+    $email_subject = "Aanvraag offerte";
 
     function problem($error)
     {
@@ -27,9 +26,9 @@ if (isset($_POST['email'])) {
    
     //bots vangen
 
-    $namebot = $_POST['name']; // required
-    $emailbot = $_POST['email']; // required
-    $messagebot = $_POST['message']; // required
+    $name = $_POST['name']; // required
+    $email = $_POST['email']; // required
+    $message = $_POST['message']; // required
 
 
 
@@ -62,15 +61,15 @@ if (isset($_POST['email'])) {
         return str_replace($bad, "", $string);
     }
 
-    $email_message .= "Naam: " . clean_string($namebot) . "\n";
-    $email_message .= "Email: " . clean_string($emailbot) . "\n";
-    $email_message .= "Bericht met datum:" . clean_string($messagebot) . "\n\n";
+    $email_message .= "Naam: " . clean_string($name) . "\n";
+    $email_message .= "Email: " . clean_string($email) . "\n";
+    $email_message .= "Bericht met datum:" . clean_string($message) . "\n\n";
 
     // create email headers
     $headers = 'From: ' . $email_from . "\r\n" .
-        'Reply-To: ' . $email_tobot . "\r\n" .
+        'Reply-To: ' . $email_to. "\r\n" .
         'X-Mailer: PHP/' . phpversion();
-    @mail($email_tobot, $email_subject, $email_message, $headers);
+    @mail($email_to, $email_subject, $email_message, $headers);
 
     ?>
     Ik werk niet bij bots
