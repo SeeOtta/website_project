@@ -69,8 +69,8 @@ if (isset($_POST['Emailmlkjhgfdsq'])) {
 
     $email_message .= "Naam: " . clean_string($name) . "\n";
     $email_message .= "Email: " . clean_string($email) . "\n";
-    $email_message .= "Bericht met datum:" . clean_string($message) . "\n\n";
-    $email_message .= "Bedankt voor de aanvraag, we zullen contact opnemen op de aangegeven datum. " . "\n";
+    $email_message .= "Vraag: " . clean_string($message) . "\n\n";
+    $email_message .= "Bedankt voor de vraag, we zullen contact opnemen met U om de vraag te beantwoorden. " . "\n";
 
     // create email headers
     $headers = 'From: ' . $email_from . "\r\n" .
