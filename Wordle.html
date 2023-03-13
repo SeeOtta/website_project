@@ -22,7 +22,7 @@
 
                     
                                     <a href="https://www.mosa-rt.be/home" class="uk-navbar-item uk-navbar-left uk-logo">
-                                    <img src="/images/logo/mosa.jpeg" srcset="/images/logo/mosa.jpeg 216w" sizes="(min-width: 216px) 216px" data-width="216" data-height="56" class="uk-responsive-height" alt=""></a>                       
+                                    <img src="/images/home/mosa-rt.jpg" srcset="/images/home/mosa-rt.jpg 216w" sizes="(min-width: 180px) 180px" data-width="216" data-height="56" class="uk-responsive-height" alt=""></a>                       
                                     </div>                   
                                     <div class="uk-navbar-right">
 
@@ -188,15 +188,16 @@
 
                     <div class="uk-width-expand@m uk-first-column">
    
-                        <h1 class="uk-text-left@m uk-text-center uk-h6 uk-scrollspy-inview uk-animation-slide-left-medium" uk-scrollspy-class="">
+                        <h2 class="uk-width-xlarge uk-margin-auto uk-text-left@m uk-text-center uk-h1 uk-scrollspy-inview uk-animation-slide-left-medium" uk-scrollspy-class="">
                             Welkom bij ons eigengemaakte Wordle.    
-                        </h1>
+                        </h2>
+                        
 
                         <hr class="uk-divider-icon uk-animation-slide-left-medium" uk-scrollspy="cls: uk-animation-slide-left-medium;">
 
-                            <h2 class="uk-width-xlarge uk-margin-auto uk-text-left@m uk-text-center uk-h1 uk-scrollspy-inview uk-animation-slide-left-medium" uk-scrollspy-class="">
-                                Hier zullen jullie wat delen van onze code van Wordle te zien krijgen.    
-                            </h2>
+                        <h1 class="uk-text-left@m uk-text-center uk-h6 uk-scrollspy-inview uk-animation-slide-left-medium" uk-scrollspy-class="">
+                            Hier zullen jullie wat delen van onze code van Wordle te zien krijgen.
+                        </h1>
                     </div>
                 </div>
 
@@ -211,13 +212,16 @@
             <div class="uk-first-column">
 
                 <div uk-scrollspy="cls: uk-animation-slide-left-medium;" class="el-item uk-panel uk-scrollspy-inview uk-animation-slide-left-medium">
-
-                    <img data-src="/images/home/begin.png" data-srcset="/images/home/begin.png, /images/home/begin.png" data-sizes="(min-width: 848px) 848px" data-width="848" data-height="565" class="el-image" alt="" uk-img="" src="https://schilder.totoweb.nl/templates/yootheme/cache/buiten-schilderwerk-642bbe4b.jpeg" srcset="/index.php?p=theme%2Fimage&amp;src=WyJpbWFnZXNcL2hvbWVcL2J1aXRlbi1zY2hpbGRlcndlcmsuanBnIixbWyJkb1Jlc2l6ZSIsWzc2OCw1MTIsNzY4LDUxMl1dLFsiZG9Dcm9wIixbNzY4LDUxMiwwLDBdXV1d&amp;hash=bec57e89445ab25b87734368da05474f&amp;option=com_ajax&amp;style=9 768w, /templates/yootheme/cache/buiten-schilderwerk-642bbe4b.jpeg 848w" sizes="(min-width: 848px) 848px">        
-
-                        <h3 class="el-title uk-margin uk-h4">
-                            Opbouw    </h3>
-
-                                <div class="el-content uk-margin">Hier zien jullie hoe de code begint. Je ziet zoal de imports en de regels van het spel maar ook de kleuren die blokjes gaan krijgen.</div>
+        
+                    <ul uk-accordion>
+                        <li>
+                            <a class="uk-accordion-title" href="#">Opbouw</a>
+                            <div class="uk-accordion-content"><div class="el-content uk-margin">Hier zien jullie hoe de code begint. Je ziet zoal de imports en de regels van het spel maar ook de kleuren die blokjes gaan krijgen.</div>
+                                <script src="https://gist.github.com/SeeOtta/b06c2e2890a93013a2c70f139ecce7e0.js"></script>
+                            </div>
+                        </li>
+                    </ul>
+                                
                 </div>
             </div>
 
@@ -225,12 +229,14 @@
 
                 <div uk-scrollspy="cls: uk-animation-slide-left-medium;" class="el-item uk-panel uk-scrollspy-inview uk-animation-slide-left-medium">
 
-                    <img data-src="/images/home/kleur.png" data-srcset="/images/home/kleur.png, /images/home/kleur.png" data-sizes="(min-width: 848px) 848px" data-width="848" data-height="565" class="el-image" alt="" uk-img="" src="https://schilder.totoweb.nl/templates/yootheme/cache/binnen-schilderwerk-0022fcfd.jpeg" srcset="/index.php?p=theme%2Fimage&amp;src=WyJpbWFnZXNcL2hvbWVcL2Jpbm5lbi1zY2hpbGRlcndlcmsuanBnIixbWyJkb1Jlc2l6ZSIsWzc2OCw1MTIsNzY4LDUxMl1dLFsiZG9Dcm9wIixbNzY4LDUxMiwwLDBdXV1d&amp;hash=edb339cc0a705aa41a1782e26643256a&amp;option=com_ajax&amp;style=9 768w, /templates/yootheme/cache/binnen-schilderwerk-0022fcfd.jpeg 848w" sizes="(min-width: 848px) 848px">        
-
-                        <h3 class="el-title uk-margin uk-h4">
-                            Kleur geven    </h3>
-
-                                <div class="el-content uk-margin">Hier zien jullie de code die gebruikt wordt om de letters hun kleur te geven.</div>
+                    <ul uk-accordion>
+                        <li>
+                            <a class="uk-accordion-title" href="#">Kleur geven</a>
+                            <div class="uk-accordion-content"><div class="el-content uk-margin">Hier zien jullie de code die gebruikt wordt om de letters hun kleur te geven.</div>
+                                <script src="https://gist.github.com/SeeOtta/80daaf35825c32f5e2a1bd0e74d34ec0.js"></script>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -238,12 +244,14 @@
 
                     <div uk-scrollspy="cls: uk-animation-slide-left-medium;" class="el-item uk-panel uk-scrollspy-inview uk-animation-slide-left-medium">
 
-                        <img data-src="/images/home/woorden.png" data-srcset="/images/home/woorden.png, /images/home/woorden.png" data-sizes="(min-width: 848px) 848px" data-width="848" data-height="565" class="el-image" alt="" uk-img="" src="https://schilder.totoweb.nl/templates/yootheme/cache/spuitwerk-ced96005.jpeg" srcset="/index.php?p=theme%2Fimage&amp;src=WyJpbWFnZXNcL2hvbWVcL3NwdWl0d2Vyay5qcGciLFtbImRvUmVzaXplIixbNzY4LDUxMiw3NjgsNTEyXV0sWyJkb0Nyb3AiLFs3NjgsNTEyLDAsMF1dXV0%3D&amp;hash=e01a917d1f97cae1d994443ff195d3be&amp;option=com_ajax&amp;style=9 768w, /templates/yootheme/cache/spuitwerk-ced96005.jpeg 848w" sizes="(min-width: 848px) 848px">        
-
-                            <h3 class="el-title uk-margin uk-h4">
-                                Woordenlijst    </h3>
-
-                                    <div class="el-content uk-margin">Hier zien jullie een deel van de lijst van woorden die we gebruiken voor het programma.</div>
+                        <ul uk-accordion>
+                            <li>
+                                <a class="uk-accordion-title" href="#">Woorden lijst</a>
+                                <div class="uk-accordion-content"><div class="el-content uk-margin">Hier zien jullie een deel van de lijst van woorden die we gebruiken voor het programma.</div>
+                                    <script src="https://gist.github.com/SeeOtta/65b749b8da3f350f14595fa4a7c03765.js"></script>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -251,12 +259,14 @@
 
                         <div uk-scrollspy="cls: uk-animation-slide-left-medium;" class="el-item uk-panel uk-scrollspy-inview uk-animation-slide-left-medium">
 
-                            <img data-src="/images/home/hint.png" data-srcset="/images/home/hint.png, /images/home/hint.png" data-sizes="(max-width: 564px) 564px" data-width="848" data-height="565" class="el-image" alt="" uk-img="" src="https://schilder.totoweb.nl/templates/yootheme/cache/abbo-33665856.jpeg" srcset="/index.php?p=theme%2Fimage&amp;src=WyJpbWFnZXNcL2hvbWVcL2FiYm8uanBnIixbWyJkb1Jlc2l6ZSIsWzc2OCw1MTIsNzY4LDUxMl1dLFsiZG9Dcm9wIixbNzY4LDUxMiwwLDBdXV1d&amp;hash=eb0b90e7e5b5ede78c6860ce2ef80145&amp;option=com_ajax&amp;style=9 768w, /templates/yootheme/cache/abbo-33665856.jpeg 848w" sizes="(min-width: 848px) 848px">        
-
-                                <h3 class="el-title uk-margin uk-h4">
-                                    Hints    </h3>
-
-                                        <div class="el-content uk-margin">Hier zien jullie het blok code die gebruikt wordt om de hints te laten werken.</div>
+                            <ul uk-accordion>
+                                <li>
+                                    <a class="uk-accordion-title" href="#">Hint systeem</a>
+                                    <div class="uk-accordion-content"><div class="el-content uk-margin">Hier zien jullie het blok code die gebruikt wordt om de hints te laten werken.</div>
+                                        <script src="https://gist.github.com/SeeOtta/0f449a87ae7bfa6b89a22cf03b03c7e3.js"></script>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
