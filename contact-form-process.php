@@ -1,8 +1,8 @@
 <?php
-if (isset($_POST['Emailmlkjhgfdsq'])) {
+if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = $_POST['Emailmlkjhgfdsq'];
+    $email_to = $_POST['Email'];
     $email_from ="form@projectDoBot.com";
     $email_tobot = "jarnepeeters6@gmail.com";
     $email_subject = "Aanvraag";
@@ -18,23 +18,16 @@ if (isset($_POST['Emailmlkjhgfdsq'])) {
 
     // validation expected data exists
     if (
-        !isset($_POST['Nameppppoiuytreza']) ||
-        !isset($_POST['Emailmlkjhgfdsq']) ||
-        !isset($_POST['Messagemlkjhgfdsq'])
+        !isset($_POST['Name']) ||
+        !isset($_POST['Email']) ||
+        !isset($_POST['Message'])
     ) {
         problem('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
-    $name = $_POST['Nameppppoiuytreza']; // required
-    $email = $_POST['Emailmlkjhgfdsq']; // required
-    $message = $_POST['Messagemlkjhgfdsq']; // required
-
-   
-    //bots vangen
-
-    $namebot = $_POST['Name']; // required
-    $emailbot = $_POST['Email']; // required
-    $messagebot = $_POST['Message']; // required
+    $name = $_POST['Name']; // required
+    $email = $_POST['Email']; // required
+    $message = $_POST['Message']; // required
 
 
 
