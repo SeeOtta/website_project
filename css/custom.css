@@ -410,3 +410,6 @@ html {
 .uk-card-primary.uk-card-body .uk-close, .uk-card-primary > :not([class*="uk-card-media"]) .uk-close, .uk-card-secondary.uk-card-body .uk-close, .uk-card-secondary > :not([class*="uk-card-media"]) .uk-close, .uk-light .uk-close, .uk-offcanvas-bar .uk-close, .uk-overlay-primary .uk-close, .uk-section-primary:not(.uk-preserve-color) .uk-close, .uk-section-secondary:not(.uk-preserve-color) .uk-close, .uk-tile-primary:not(.uk-preserve-color) .uk-close, .uk-tile-secondary:not(.uk-preserve-color) .uk-close {
     color: #353535;
 }
+.padding-left{
+    color:#276fb3
+}
