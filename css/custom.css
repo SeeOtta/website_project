@@ -413,3 +413,7 @@ html {
 .padding-left{
     color:#276fb3
 }
+.onzichtbaar {
+    display: none;
+  }
+  
